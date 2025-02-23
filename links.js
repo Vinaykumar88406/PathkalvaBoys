@@ -15,5 +15,7 @@ function myFriend2(){
     bgcolor.style.backgroundColor=color;
 
     document.getElementById("message").innerHTML="Vellu ra Rey enni sarlu avthavu..ERRipuka...😂😂😂";
+        document.getElementById("button").innerText="Ayyo..🤣🤣";
+}
 }
 
