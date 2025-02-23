@@ -1,0 +1,30 @@
+.containor{
+    border: 1px solid black;
+    display: flex;
+    height: 50vh;
+    width: 70vh;
+    /* justify-content: center; */
+    align-items: center;
+    box-shadow: 0px 2px 2px 2px ;
+    border-radius: 20px ;
+    background-color: red;
+    margin: 150px;
+    
+}
+#button{
+    margin: 200px 150px 0px 0px;
+}
+#message{
+    margin-right:10px 0px 0px 20px;
+    background: pink;
+
+}
+
+@media (max-width:400px){
+    .containor{
+        width:90%;
+    }
+    button{
+        font-size: 1em;
+    }
+}
